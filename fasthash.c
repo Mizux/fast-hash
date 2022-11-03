@@ -23,7 +23,7 @@
    SOFTWARE.
 */
 
-#include "fasthash.h"
+#include "fast_hash/fasthash.h"
 
 // Compression function for Merkle-Damgard construction.
 // This function is generated using the framework provided.
@@ -63,7 +63,7 @@ uint64_t fasthash64(const void *buf, size_t len, uint64_t seed)
 	}
 
 	return mix(h);
-} 
+}
 
 uint32_t fasthash32(const void *buf, size_t len, uint32_t seed)
 {
