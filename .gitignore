@@ -1,9 +1,9 @@
+# Bazel
+/bazel-*
+
+# CMake
 build/
 build*/
-export/
-cache/
-
-.vagrant/
 
 # IDE
 .vs/
